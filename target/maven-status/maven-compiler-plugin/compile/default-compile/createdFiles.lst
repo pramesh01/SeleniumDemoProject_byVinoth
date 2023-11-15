@@ -1,0 +1,8 @@
+com\flightwebsite\pages\FlightSearch.class
+com\basepage\BaseTestClass.class
+com\vendorportal\pages\Login.class
+com\flightwebsite\pages\SelectFlights.class
+com\flightwebsite\pages\CustomerRegistration.class
+com\flightwebsite\pages\RegistrationConfirmation.class
+com\flightwebsite\pages\FlightConfirmation.class
+com\vendorportal\pages\UserDashboard.class

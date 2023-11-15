@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vendor Suite">
+  <test  name="Test1">
+  <parameter name="username" value="sam"/>
+   <parameter name="password" value="sam"/>
+  <parameter name="keywordname" value="adams"/>
+  <parameter name="resultrowcount" value="8"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test2">
+   <parameter name="username" value="mike"/>
+   <parameter name="password" value="mike"/>
+  <parameter name="keywordname" value="jen"/>
+  <parameter name="resultrowcount" value="4"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test  name="Test3">
+   <parameter name="username" value="john"/>
+   <parameter name="password" value="john"/>
+  <parameter name="keywordname" value="ge"/>
+  <parameter name="resultrowcount" value="11"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

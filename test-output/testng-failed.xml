@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vendor Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="keywordname" value="adams"/>
+    <parameter name="password" value="sam"/>
+    <parameter name="resultrowcount" value="8"/>
+    <parameter name="username" value="sam"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest">
+        <methods>
+          <include name="setparavalues"/>
+          <include name="getDriver"/>
+          <include name="loginTest"/>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="DashboardTest"/>
+        </methods>
+      </class> <!-- com.testcases.VendorPortalTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="keywordname" value="jen"/>
+    <parameter name="password" value="mike"/>
+    <parameter name="resultrowcount" value="4"/>
+    <parameter name="username" value="mike"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest">
+        <methods>
+          <include name="setparavalues"/>
+          <include name="getDriver"/>
+          <include name="loginTest"/>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="DashboardTest"/>
+        </methods>
+      </class> <!-- com.testcases.VendorPortalTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="keywordname" value="ge"/>
+    <parameter name="password" value="john"/>
+    <parameter name="resultrowcount" value="11"/>
+    <parameter name="username" value="john"/>
+    <classes>
+      <class name="com.testcases.VendorPortalTest">
+        <methods>
+          <include name="setparavalues"/>
+          <include name="getDriver"/>
+          <include name="loginTest"/>
+          <include name="logOut"/>
+          <include name="quitDriver"/>
+          <include name="DashboardTest"/>
+        </methods>
+      </class> <!-- com.testcases.VendorPortalTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Vendor Suite] -->

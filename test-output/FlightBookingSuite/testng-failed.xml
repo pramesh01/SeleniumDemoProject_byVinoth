@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlightBookingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlightRegistrationTest_1(failed)">
+    <parameter name="expectedprice" value="$1169 USD"/>
+    <parameter name="noofPassengers" value="2"/>
+    <classes>
+      <class name="com.testcases.FlightReservationTest">
+        <methods>
+          <include name="registrationconfirmationflow"/>
+          <include name="getDriver"/>
+          <include name="registrationflow"/>
+          <include name="selectflightsflow"/>
+          <include name="searchingflightsflow"/>
+          <include name="setPageParameters"/>
+          <include name="quitDriver"/>
+          <include name="finalconfirmationflow"/>
+        </methods>
+      </class> <!-- com.testcases.FlightReservationTest -->
+    </classes>
+  </test> <!-- FlightRegistrationTest_1(failed) -->
+  <test thread-count="5" name="FlightRegistrationTest_2(failed)">
+    <parameter name="expectedprice" value="$1753 USD"/>
+    <parameter name="noofPassengers" value="3"/>
+    <classes>
+      <class name="com.testcases.FlightReservationTest">
+        <methods>
+          <include name="registrationconfirmationflow"/>
+          <include name="getDriver"/>
+          <include name="registrationflow"/>
+          <include name="selectflightsflow"/>
+          <include name="searchingflightsflow"/>
+          <include name="setPageParameters"/>
+          <include name="quitDriver"/>
+          <include name="finalconfirmationflow"/>
+        </methods>
+      </class> <!-- com.testcases.FlightReservationTest -->
+    </classes>
+  </test> <!-- FlightRegistrationTest_2(failed) -->
+</suite> <!-- Failed suite [FlightBookingSuite] -->
